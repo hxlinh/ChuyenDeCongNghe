@@ -1,0 +1,42 @@
+[
+  {
+    "model": "library.author",
+    "pk": 1,
+    "fields": {
+      "name": "J.K. Rowling",
+      "email": "jk.rowling@example.com",
+      "birth_date": "1965-07-31",
+      "bio": "British author, philanthropist, film producer, television producer, and screenwriter, best known for writing the Harry Potter fantasy series."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 2,
+    "fields": {
+      "name": "George Orwell",
+      "email": "george.orwell@example.com",
+      "birth_date": "1903-06-25",
+      "bio": "English novelist, essayist, journalist and critic whose work is characterised by lucid prose, biting social criticism, opposition to totalitarianism, and outspoken support of democratic socialism."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 3,
+    "fields": {
+      "name": "Agatha Christie",
+      "email": "agatha.christie@example.com",
+      "birth_date": "1890-09-15",
+      "bio": "English writer known for her detective novels, particularly those featuring Hercule Poirot and Miss Jane Marple."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 4,
+    "fields": {
+      "name": "Isaac Asimov",
+      "email": "isaac.asimov@example.com",
+      "birth_date": "1920-01-02",
+      "bio": "American writer and professor of biochemistry at Boston University. He was known for his works of science fiction and popular science."
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "model": "library.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fantasy",
+      "description": "Fantasy literature featuring magical or supernatural elements."
+    }
+  },
+  {
+    "model": "library.category",
+    "pk": 2,
+    "fields": {
+      "name": "Dystopian Fiction",
+      "description": "Literature set in societies where life is miserable, characterized by human misery, squalor, oppression, disease, and overcrowding."
+    }
+  },
+  {
+    "model": "library.category",
+    "pk": 3,
+    "fields": {
+      "name": "Mystery",
+      "description": "Fiction dealing with the solution of a crime or the unraveling of secrets."
+    }
+  },
+  {
+    "model": "library.category",
+    "pk": 4,
+    "fields": {
+      "name": "Science Fiction",
+      "description": "Fiction based on futuristic concepts such as advanced science and technology, space exploration, time travel, parallel universes, and extraterrestrial life."
+    }
+  },
+  {
+    "model": "library.category",
+    "pk": 5,
+    "fields": {
+      "name": "Classic Literature",
+      "description": "Literature that has been accepted as being exemplary or noteworthy for its artistic merit."
+    }
+  }
+]

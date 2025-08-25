@@ -1,0 +1,66 @@
+[
+  {
+    "model": "library.author",
+    "pk": 1,
+    "fields": {
+      "name": "J.K. Rowling",
+      "email": "jk.rowling@example.com",
+      "birth_date": "1965-07-31",
+      "bio": "British author, philanthropist, film producer, television producer, and screenwriter, best known for writing the Harry Potter fantasy series."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 2,
+    "fields": {
+      "name": "George Orwell",
+      "email": "george.orwell@example.com",
+      "birth_date": "1903-06-25",
+      "bio": "English novelist, essayist, journalist and critic whose work is characterised by lucid prose, biting social criticism, opposition to totalitarianism, and outspoken support of democratic socialism."
+    }
+  },
+  {
+    "model": "library.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fantasy",
+      "description": "Fantasy literature featuring magical or supernatural elements."
+    }
+  },
+  {
+    "model": "library.category",
+    "pk": 2,
+    "fields": {
+      "name": "Dystopian Fiction",
+      "description": "Literature set in societies where life is miserable, characterized by human misery, squalor, oppression, disease, and overcrowding."
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 1,
+    "fields": {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": 1,
+      "category": 1,
+      "publication_date": "1997-06-26",
+      "pages": 223,
+      "isbn": "9780747532699",
+      "price": "19.99",
+      "is_available": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 2,
+    "fields": {
+      "title": "1984",
+      "author": 2,
+      "category": 2,
+      "publication_date": "1949-06-08",
+      "pages": 328,
+      "isbn": "9780452284234",
+      "price": "15.99",
+      "is_available": true
+    }
+  }
+]
