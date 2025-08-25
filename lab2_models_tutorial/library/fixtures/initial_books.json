@@ -1,0 +1,114 @@
+[
+  {
+    "model": "library.book",
+    "pk": 1,
+    "fields": {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": 1,
+      "category": 1,
+      "publication_date": "1997-06-26",
+      "pages": 223,
+      "isbn": "9780747532699",
+      "price": "19.99",
+      "is_available": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 2,
+    "fields": {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": 1,
+      "category": 1,
+      "publication_date": "1998-07-02",
+      "pages": 251,
+      "isbn": "9780747538493",
+      "price": "21.99",
+      "is_available": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 3,
+    "fields": {
+      "title": "1984",
+      "author": 2,
+      "category": 2,
+      "publication_date": "1949-06-08",
+      "pages": 328,
+      "isbn": "9780452284234",
+      "price": "15.99",
+      "is_available": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 4,
+    "fields": {
+      "title": "Animal Farm",
+      "author": 2,
+      "category": 5,
+      "publication_date": "1945-08-17",
+      "pages": 112,
+      "isbn": "9780451526342",
+      "price": "12.99",
+      "is_available": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 5,
+    "fields": {
+      "title": "Murder on the Orient Express",
+      "author": 3,
+      "category": 3,
+      "publication_date": "1934-01-01",
+      "pages": 256,
+      "isbn": "9780062693662",
+      "price": "14.99",
+      "is_available": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 6,
+    "fields": {
+      "title": "The Murder of Roger Ackroyd",
+      "author": 3,
+      "category": 3,
+      "publication_date": "1926-06-01",
+      "pages": 288,
+      "isbn": "9780062073570",
+      "price": "13.99",
+      "is_available": false
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 7,
+    "fields": {
+      "title": "Foundation",
+      "author": 4,
+      "category": 4,
+      "publication_date": "1951-05-01",
+      "pages": 244,
+      "isbn": "9780553293357",
+      "price": "16.99",
+      "is_available": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 8,
+    "fields": {
+      "title": "I, Robot",
+      "author": 4,
+      "category": 4,
+      "publication_date": "1950-12-02",
+      "pages": 253,
+      "isbn": "9780553294385",
+      "price": "15.49",
+      "is_available": true
+    }
+  }
+]

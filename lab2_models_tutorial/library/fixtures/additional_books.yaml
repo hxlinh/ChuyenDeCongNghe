@@ -1,0 +1,51 @@
+- model: library.author
+  pk: 10
+  fields:
+    name: Stephen King
+    email: stephen.king@example.com
+    birth_date: 1947-09-21
+    bio: American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels.
+
+- model: library.author
+  pk: 11
+  fields:
+    name: Jane Austen
+    email: jane.austen@example.com
+    birth_date: 1775-12-16
+    bio: English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.
+
+- model: library.category
+  pk: 10
+  fields:
+    name: Horror
+    description: Fiction intended to frighten, unsettle, and create suspense.
+
+- model: library.category
+  pk: 11
+  fields:
+    name: Romance
+    description: Fiction that focuses on the romantic relationships between characters.
+
+- model: library.book
+  pk: 10
+  fields:
+    title: The Shining
+    author: 10
+    category: 10
+    publication_date: 1977-01-28
+    pages: 447
+    isbn: 9780307743657
+    price: 18.99
+    is_available: true
+
+- model: library.book
+  pk: 11
+  fields:
+    title: Pride and Prejudice
+    author: 11
+    category: 11
+    publication_date: 1813-01-28
+    pages: 432
+    isbn: 9780141439518
+    price: 14.99
+    is_available: true

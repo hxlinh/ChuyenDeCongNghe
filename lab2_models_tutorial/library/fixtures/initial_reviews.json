@@ -1,0 +1,90 @@
+[
+  {
+    "model": "library.review",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+      "reviewer_name": "Emma Thompson",
+      "rating": 5,
+      "comment": "A magical journey that captivates readers of all ages. Rowling's world-building is phenomenal!",
+      "created_at": "2024-01-15T10:30:00Z"
+    }
+  },
+  {
+    "model": "library.review",
+    "pk": 2,
+    "fields": {
+      "book": 1,
+      "reviewer_name": "David Chen",
+      "rating": 4,
+      "comment": "Great introduction to the Harry Potter series. The characters are well-developed and the plot is engaging.",
+      "created_at": "2024-01-20T14:45:00Z"
+    }
+  },
+  {
+    "model": "library.review",
+    "pk": 3,
+    "fields": {
+      "book": 3,
+      "reviewer_name": "Sarah Johnson",
+      "rating": 5,
+      "comment": "Orwell's masterpiece. A chilling and prophetic vision of totalitarianism that remains relevant today.",
+      "created_at": "2024-02-01T09:15:00Z"
+    }
+  },
+  {
+    "model": "library.review",
+    "pk": 4,
+    "fields": {
+      "book": 3,
+      "reviewer_name": "Michael Rodriguez",
+      "rating": 4,
+      "comment": "Thought-provoking and disturbing in the best possible way. Required reading for understanding modern society.",
+      "created_at": "2024-02-05T16:20:00Z"
+    }
+  },
+  {
+    "model": "library.review",
+    "pk": 5,
+    "fields": {
+      "book": 5,
+      "reviewer_name": "Helen Foster",
+      "rating": 5,
+      "comment": "Christie at her finest! The plot twists are brilliant and the mystery keeps you guessing until the end.",
+      "created_at": "2024-02-10T11:30:00Z"
+    }
+  },
+  {
+    "model": "library.review",
+    "pk": 6,
+    "fields": {
+      "book": 7,
+      "reviewer_name": "Robert Kim",
+      "rating": 4,
+      "comment": "A foundational work of science fiction. Asimov's vision of the future is both fascinating and believable.",
+      "created_at": "2024-02-15T13:45:00Z"
+    }
+  },
+  {
+    "model": "library.review",
+    "pk": 7,
+    "fields": {
+      "book": 8,
+      "reviewer_name": "Lisa Wang",
+      "rating": 5,
+      "comment": "The Three Laws of Robotics are iconic. This collection of stories explores AI ethics in fascinating ways.",
+      "created_at": "2024-02-20T08:00:00Z"
+    }
+  },
+  {
+    "model": "library.review",
+    "pk": 8,
+    "fields": {
+      "book": 2,
+      "reviewer_name": "Tom Wilson",
+      "rating": 4,
+      "comment": "Great sequel to the first book. The mystery of the Chamber keeps you engaged throughout.",
+      "created_at": "2024-02-25T15:30:00Z"
+    }
+  }
+]
